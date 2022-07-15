@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 22px;
+}
+body {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.contenido-header {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/fondo.JPG);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+ .contenido-header.fondo {
+	width:100px;
+	height:100px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.contenido-header{
+	width: calc(100vw - 20px);
+	font-size: 200px;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	text-align: center;
+	color:rgb(143, 194, 191);
+}
+
+.nombre {
+	background-image: url(../img/morado.png);
+	width: 100%;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	z-index: 999;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	margin-bottom: 60px;
+	color: rgb(217, 231, 231);
+}
+.imagen-icono img{border-radius: 50px;}
+.imagen-icono{
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	z-index: 999;
+	display: flex;
+	font-family: 'Noto Serif', serif;
+	font-style: italic;
+	margin-bottom: 60px;}
+hr { 
+	height: 0px;
+	 border: 50px; 
+	 border-top: 2px solid black;
+    width: 1110px;
+    margin:auto;
+}
+.icono{
+	margin: 0px 40px;
+}
+.a{
+	background-image: url(../img/rosa.png);
+	height: 60px;
+	text-align: center;
+	width: 500px;
+	margin: auto;
+}
+.seccion-1{
+    text-align: center;
+	background-image: url(../img/rosa.png);
+	width: 1200px;
+	margin: auto;
+	height: 4000px;
+	
+}
+.container{
+	background-image: url(../img/perla.webp);
+	margin: auto;
+	height:500px;
+}
+.b{
+	background-image: url(../img/crema.jpg);
+	background-position: right;
+	height: 70px;
+	text-align: center;
+	width: 380px;
+	margin: 0px 150px;
+	border: 3px solid rgb(126, 109, 76);
+	font-family:fantasy ;
+	border-radius: 10px;
+}
+.c{
+	background-image: url(../img/crema.jpg);
+	background-position: right;
+	height: 70px;
+	text-align: center;
+	width: 380px;
+	margin:0px 10px;
+	border: 2px solid rgb(126, 109, 76);
+	font-family:fantasy ;
+	border-radius: 10px;
+}
+.container-1{
+	background-image: url(../img/fon1.JPG);
+    
+	height: 465px;
+	margin:auto;
+	width: 2200px;
+}
+img{
+	border: 2px solid black;
+}
+.col-1{
+	text-align: center;
+	width: 1700px;
+}
+.over{
+	margin: 50px  135px;
+}
+.conteiner-2{
+	background-color: rgb(30, 26, 34);
+	width: 1190px;
+	color: rgb(177, 201, 201);
+	margin: 0px 5px
+}
+ 
+
+
+
+
+
+
+
